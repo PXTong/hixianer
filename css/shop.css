@@ -1,0 +1,55 @@
+@charset 'utf-8';
+.difang{
+	padding: 100px 0;
+}
+.difang .item{
+	width: 24.2%;
+}
+.difang dl{
+	border: 1px solid #ccc;
+}
+.difang .item img{
+	height: 197.75px;
+	width: 273px;
+	// width: 24%;
+}
+.difang .item{
+	color: #fe8181;
+	float: left;
+	margin-right: 8px;
+}
+.difang .item span{
+	font-size: 18px;
+}
+.difang .item dd h5{
+	font-size: 20px;
+}
+.difang .item dd{
+	text-align: center;
+}
+.difang .item .button{
+	margin-top:15px;
+}
+.difang .item .button a{
+	color: #fff;
+	padding: 9px 16px;
+    text-decoration: none;
+    background:#ff4c4c; 
+	font-size: 14px;
+	font-weight:bold;
+	border:1px solid #ff4c4c;
+	border-radius: 5px; 
+}
+.difang .item .button a:visited{
+	color: #fff;
+}
+.difang .item .button a:hover{
+	color:#ff4c4c; 
+	text-decoration: none;
+	background:transparent;
+	border:1px solid #ff4c4c; 
+}
+.difang .top .item{
+	margin-bottom: 30px;
+	// padding-bottom:50px; 
+}

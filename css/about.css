@@ -1,0 +1,94 @@
+@charset "utf-8";
+// .container{
+// 	text-align: center;
+// }
+.header{
+	background:url(../images/banner.jpg) no-repeat 0 0;
+	background-size: cover;
+}
+.header .container{
+text-align: center;
+}
+.header-info h2{
+	color: #fff;
+	font-weight: 700;
+	text-shadow:0 5px 2px rgba(0,0,0,0.25);
+}
+.header-info h2 span{
+	color: #fe8181;
+}
+.header-info p{
+	color: #fe8181;
+}
+.aboutus{
+	padding: 4em 0;
+}
+.aboutus h3 {
+    font-size: 3em;
+    color: #fe8181;
+    text-align: center;
+}
+.about-grids {
+    margin-top: 3em;
+}
+.about-grid h4 {
+    font-size: 1.5em;
+    margin: 1em 0;
+    color: #555;
+    font-weight: 600;
+}
+.about-grid p {
+    font-size: 1em;
+    margin: 1em 0;
+    color: #999;
+    line-height: 1.8em;
+}
+.history {
+    margin-top: 1.2em;
+}
+.his-year {
+    float: left;
+    width: 15%;
+    margin-top: -0.3em;
+
+}
+.his-year h5 {
+    font-size: 1.2em;
+    color: #fd9f3e;
+    font-weight: 600;
+}
+.his-text {
+    float: left;
+    width: 85%;
+}
+.his-text p {
+    font-size: 1em;
+    color: #999;
+    line-height: 1.8em;
+    margin: 0;
+}
+.ourteam h3 {
+    font-size: 3em;
+    color: #fe8181;
+    text-align: center;
+}
+.team-grids{
+    margin-top: 3em;
+}
+.team-grid img{
+    width: 255px;
+    height: 255px;
+}
+.team-grid h4 {
+    font-size: 1.5em;
+    color: #fd9f3e;
+    font-weight: 600;
+    margin: 0.5em 0;
+    text-transform: capitalize;
+}
+.team-grid p {
+    font-size: 1em;
+    color: #555;
+    text-align: left;
+    line-height: 1.8em;
+}

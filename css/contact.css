@@ -1,0 +1,59 @@
+@charset 'utf-8';
+.contact-form{
+	margin-top: 60px;
+}
+.contact-info {
+    margin-bottom: 52px;
+}
+.contact-info h2 {
+    margin: 0;
+    color: #8F8E8E;
+    font-size: 32px;
+    font-weight: bold;
+}
+.contact-info h2 span {
+    color:#FF4C4C;
+}
+.contact-left {
+    width: 30%;
+    float: left;
+}
+.contact-left input[type="text"] {
+    width: 93%;
+    color: #FF4C4C;
+    margin: 0 23px 23px 0;
+    font-size: 16px;
+    padding: 12px 10px;
+    outline: none;
+    border: 1px solid #e8e8e8;
+}
+.contact-right {
+    width: 68%;
+    float: right;
+}
+.contact-right textarea {
+    width: 100%;
+    color: #FF4C4C;
+    font-size: 16px;
+    resize: none;
+    height: 185px;
+    padding: 12px;
+    outline: none;
+    border: 1px solid #e8e8e8;
+}
+.contact-form input[type=submit] {
+    color: #ffffff;
+    padding: 13px 43px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 3px solid #FF4C4C;
+    background: #FF4C4C;
+}
+.contact-form input[type=submit]:hover{
+	background: #ffffff;
+    border: 3px solid #FF4C4C;
+    color: #FF4C4C;
+    transition: .5s all;
+}
